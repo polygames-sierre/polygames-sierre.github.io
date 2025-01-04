@@ -16,13 +16,11 @@ async function render(template:string, model:any):Promise<string>
 			reject(error);
 			}
 		});
-
-	//return nunjucks.render(template, model);
 	}
 
 async function init()
 	{
-	let response = await fetch("data/polygames.json");
+	let response = await fetch("/temp/polygames.json");
 
 	let json = await response.json();
 
@@ -30,20 +28,10 @@ async function init()
 
 	let event = events[0];
 
-	render("event.html", event).then(html =>
+	render("/temp/event.html", event).then(html =>
 		{
 		document.body.insertAdjacentHTML("beforeend", html);
 		});
 	}
-
-/*
-function game<T extends GameEvent>(game:T):void
-	{
-	render("game.html", game).then(html =>
-		{
-		document.body.insertAdjacentHTML("beforeend", html);
-		});
-	}
-*/
 
 init();

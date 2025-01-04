@@ -1,0 +1,16 @@
+
+
+@import url(panel.css);
+@import url(section.css);
+@import url(event.css);
+
+@import url(hexagon.css);
+
+body
+	{
+	background-color: #F2F2F2;
+	/*font-size: 1.25rem;*/
+	}
+
+
+@import url(events.css);

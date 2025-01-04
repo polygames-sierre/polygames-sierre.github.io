@@ -3,6 +3,7 @@
 	<rect x="0" y="0" width="222" height="256" fill="gold"/>
 	-->
 	<g transform="scale(0.87)" transform-origin="50% 50%">
-		<polygon points="0,64 0,192 111,256 222,192 222,64 111,0" fill="white" stroke="white" stroke-width="32" stroke-linejoin="round"/>
+		
 	</g>
+	<polygon points="0,64 0,192 111,256 222,192 222,64 111,0" fill="white" stroke="silver" stroke-width="8" stroke-linejoin="round"/>
 </svg>
