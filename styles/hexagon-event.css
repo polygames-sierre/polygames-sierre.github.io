@@ -1,0 +1,48 @@
+
+.hexagon-event
+	{
+	/*background-image: url(/hexagon2.svg);*/
+	background-image: url(/hexagon5.svg);
+	background-size: cover;
+	width: 27.5rem;
+	height: 31.75rem;
+	/*margin: 2rem;*/
+	display: inline-block;
+	/*transform: rotate(5deg);*/
+	}
+
+.hexagon-event > .content
+	{
+	/*background-color: orange;*/
+	height: 15.875rem;
+	}
+
+.hexagon-event > .more
+	{
+	/*background-color: gold;*/
+	}
+
+.hexagon-event > .type > p
+	{
+	line-height: 1rem;
+	text-align: center;
+	margin: 0;
+	padding: 5rem 0 1.9375rem 0;
+	}
+
+.hexagon-event > .content > h3
+	{
+	font-size: 1.25rem;
+	line-height: 1.25em;
+	text-align: center;
+	margin: 0 0 2rem 0;
+	}
+
+.hexagon-event > .more > a
+	{
+	line-height: 1rem;
+	text-align: center;
+	margin: 0;
+	padding: 1.9375rem 0 5rem 0;
+	display: block;
+	}

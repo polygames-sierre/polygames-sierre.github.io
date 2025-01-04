@@ -1,0 +1,26 @@
+{
+"name": "Poly-Games",
+
+"agenda":
+	{
+	"startDate": "2025-04-25T18:00",
+	"endDate": "2025-04-27T15:00",
+
+	"events":
+		[
+			{
+			"type": "Jeu de Rôle",
+			"startDate": "2025-04-25T19:00",
+			"duration": "PT2H",
+			"duration2": "PT4H",
+			"title": "À la recherche de SG-12",
+			"mj": "Florent",
+			"game":
+				{
+				"name": "Stargate Coalition"
+				},
+			"location": "AS-03"
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2015", "ES2024"],
+    "target": "ES2024",
+    "module": "ESNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "scripts"
+  },
+  "exclude": ["data", "scripts", "styles"]
+}

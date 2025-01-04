@@ -1,0 +1,60 @@
+
+<style>
+svg
+	{
+	background-color: #A4DBE4;
+	width: 100%;
+	height: auto;
+	}
+</style>
+
+<svg viewBox="0 0 500 500">
+	<style>
+	polygon
+		{
+		fill: #F2DA94;
+		stroke: #BB7B44;
+		stroke-width: .1;
+		}
+	svg:active
+		{
+		cursor: grabbing;
+		}
+	</style>
+	<defs>
+		<!--
+		<polygon id="hex" points="5.5,0 0,3.175 0,9.525 5.5,12.7 11,9.525 11,3.175" fill="none" stroke="black" stroke-width="0.1"/>
+		-->
+		<polygon id="hex" points="5.5,0 0,3.175 0,9.525 5.5,12.7 11,9.525 11,3.175"/>
+	</defs>
+	<g id="map" transform="scale(1)">
+		<use x="0" y="0" href="#hex"/>
+	</g>
+</svg>
+
+<script>
+
+let map = document.querySelector("#map");
+
+for (let row = 0; row < 20; row++)
+	{
+	for (let column = 0; column < 32; column++)
+		{
+		let x = 11 * column + ((row % 2 === 0) ? 0 : 5.5);
+		let y = 9.525 * row;
+		let use = document.createElementNS("http://www.w3.org/2000/svg", "use");
+		use.setAttribute("x", x.toFixed(3));
+		use.setAttribute("y", y.toFixed(3));
+		use.setAttribute("href", "#hex");
+		use.setAttribute("data-row", row);
+		use.setAttribute("data-column", column);
+		map.appendChild(use);
+		}
+	}
+
+map.addEventListener("click", e =>
+	{
+	console.log(e.target.dataset.row);
+	});
+
+</script>

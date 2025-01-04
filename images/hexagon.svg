@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 19.05">
+	<defs>
+		<polygon id="hexagon" points="5.5,0 0,3.175 0,9.525 5.5,12.7 11,9.525 11,3.175" fill="none" stroke="silver" stroke-width="0.5"/>
+	</defs>
+	<!--
+	<rect x="0" y="0" width="11" height="12.7" fill="gold"/>
+	-->
+	<!--
+	<line x1="5.5" y1="12.7" x2="5.5" y2="19.05" fill="none" stroke="black" stroke-width="1"/>
+	<polygon points="5.5,0 0,3.175 0,9.525 5.5,12.7 11,9.525 11,3.175" fill="none" stroke="black" stroke-width="1"/>
+	-->
+	<use href="#hexagon" x="0" y="0"/>
+	<use href="#hexagon" x="-5.5" y="9.525"/>
+	<use href="#hexagon" x="5.5" y="9.525"/>
+</svg>

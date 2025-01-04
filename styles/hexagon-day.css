@@ -1,0 +1,35 @@
+
+h2.day
+	{
+	background-image: url(/hexagon5.svg);
+	background-size: cover;
+	width: 4.44rem;
+	height: 5.12rem;
+	}
+
+h2.day > span.name,
+h2.day > span.date
+	{
+	font-size: 1.5rem;
+	line-height: 1;
+	text-align: center;
+	display: block;
+	}
+
+h2.day > span.name
+	{
+	text-transform: uppercase;
+	padding-top: 1.06rem;
+	}
+
+h2.day > span.date
+	{
+	padding-bottom: 1.06rem;
+	}
+
+/*
+<h2 class="day">
+	<span class="name">Ve</span>
+	<span class="date">25</span>
+</h2>
+*/

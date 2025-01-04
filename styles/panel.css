@@ -1,0 +1,30 @@
+
+.panel
+	{
+	/*
+	background-color: var(--color-pink-light);
+	border: 1px solid silver;
+	*/
+	width: 30rem;
+	}
+
+.panel .title
+	{
+	background-color: var(--color-pink);
+	padding: 1rem;
+	}
+
+.panel .arrow
+	{
+	background-color: var(--color-pink);
+	width: 2rem;
+	height: 2rem;
+	transform: translate(14rem, -1rem) scaleX(10.6) rotate(45deg);
+	display: inline-block;
+	}
+
+.panel .content
+	{
+	padding: 1rem;
+	padding-top: 0;
+	}

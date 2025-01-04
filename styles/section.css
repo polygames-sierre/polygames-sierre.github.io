@@ -1,0 +1,32 @@
+
+section
+	{
+	background-color: var(--color-pink-light);
+	padding: 1rem;
+	margin-bottom: 3rem;
+	}
+
+section *:first-child
+	{
+	margin-top: 0;
+	padding-top: 0;
+	}
+
+section *:last-child
+	{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	}
+
+section::after
+	{
+	content: "";
+	background-color: var(--color-pink-light);
+	width: 2rem;
+	height: 2rem;
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-1rem) scaleX(40) rotate(45deg);
+	z-index: -5;
+	}
