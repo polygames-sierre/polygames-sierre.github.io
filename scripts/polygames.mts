@@ -1,7 +1,8 @@
 
-//@ts-ignore
-import nunjucks from "https://cdn.jsdelivr.net/npm/nunjucks@3.2.4/+esm";
-//import * as nunjucks from "nunjucks";
+//import nunjucks from "https://cdn.jsdelivr.net/npm/nunjucks@3.2.4/+esm";
+import * as nunjucks from "nunjucks";
+
+//nunjucks.precompile()
 
 async function render(template:string, model:any):Promise<string>
 	{
@@ -28,7 +29,7 @@ async function init()
 
 	let event = events[0];
 
-	render("/temp/event.html", event).then(html =>
+	render("/temp/templates/event.html", event).then(html =>
 		{
 		document.body.insertAdjacentHTML("beforeend", html);
 		});

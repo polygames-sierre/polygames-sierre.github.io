@@ -1,0 +1,33 @@
+
+<section class="events">
+{% for i in [1,2,3,4,5] %}
+	<div class="event">
+		<div class="type">
+			<p>Jeu de Rôle</p>
+		</div>
+		<div class="content">
+			<h3>À la recherche de SG-12</h3>
+		</div>
+		<div class="more">
+			<a href="#">Détails</a>
+		</div>
+	</div>
+{% endfor %}
+</section>
+
+{#
+<dl>
+	<dt>Jeu</dt>
+	<dd>{{game.name}}</dd>
+	<dt>MJ</dt>
+	<dd>{{mj}}</dd>
+	<dt>Début</dt>
+	<dd>19:00</dd>
+	<dt>Durée</dt>
+	<dd>2 à 4h</dd>
+	<dt>Salle</dt>
+	<dd>{{location}}</dd>
+	<dt></dt><dd></dd>
+</dl>
+<p>Inscription non requise</p>
+#}

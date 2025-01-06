@@ -1,25 +1,37 @@
 
 .hexagon-event
 	{
-	/*background-image: url(/hexagon2.svg);*/
+	background-image: url(/images/svg/hexagon.svg);
+	background-size2: cover;
+	width: 29.5rem;
+	height: 33.75rem;
+	padding: 1rem;
+	float: left;
+	}
+
+/*
+
+472
+
+.hexagon-event
+	{
+	/ * background-image: url(/hexagon2.svg); * /
 	background-image: url(/hexagon5.svg);
 	background-size: cover;
 	width: 27.5rem;
 	height: 31.75rem;
-	/*margin: 2rem;*/
+	/ * margin: 2rem; * /
 	display: inline-block;
-	/*transform: rotate(5deg);*/
+	/ * transform: rotate(5deg); * /
 	}
 
 .hexagon-event > .content
 	{
-	/*background-color: orange;*/
 	height: 15.875rem;
 	}
 
 .hexagon-event > .more
 	{
-	/*background-color: gold;*/
 	}
 
 .hexagon-event > .type > p
@@ -46,3 +58,4 @@
 	padding: 1.9375rem 0 5rem 0;
 	display: block;
 	}
+*/

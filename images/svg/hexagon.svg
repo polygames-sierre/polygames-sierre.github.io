@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 135">
+	<defs>
+		<filter id="shadow" color-interpolation-filters="sRGB">
+			<feDropShadow dx="0" dy="0" stdDeviation="2" flood-opacity=".2"/>
+		</filter>
+		<!--
+		<rect id="rect" x="0" y="0" width="118" height="135" fill="gold"/>
+		-->
+		<polygon id="hexagon" points="55,0 0,31.75 0,95.25 55,127 110,95.25 110,31.75"/>
+	</defs>
+	<!--
+	4 = 1rem (à 16px)
+	width: 27.5rem;
+	height: 31.75rem;
+	-->
+	<use x="4" y="4" href="#hexagon" fill="white" filter="url(#shadow)"/>
+</svg>
